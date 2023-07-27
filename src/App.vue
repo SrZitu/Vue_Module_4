@@ -33,8 +33,8 @@ function setImage(image){
           <div class="flex space-x-2">
         <img @click="setImage(image)" class="cursor-pointer" v-for="image in images" :src="image.thumb" :key="image.thumb" >
       </div>
-            <div class="mt-10">
-                <img class="cursor-pointer w-full" :src="fullImage" alt="">
+            <div class="mt-10 flex align-center justify-center">
+                <img class="cursor-pointer w-full max-w-lg" :src="fullImage" alt="">
             </div>
         </div>
     </section>
