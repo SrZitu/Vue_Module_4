@@ -25,7 +25,7 @@ const accordions = reactive([
   }
 ])
 
-// accordions[0].isOpen=true
+accordions[0].isOpen=true
 </script>
 
 <template>
